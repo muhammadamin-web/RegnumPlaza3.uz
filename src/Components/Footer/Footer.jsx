@@ -91,16 +91,9 @@ const Footer = () => {
           </div>
           <div className="footer_card3">
             <p className="footer_card3_text">
-              Loyiha arxitekturasi, obodonlashtirish, fasadlar, interyer
-              tasvirlari, qo'llaniladigan materiallar, ularni raqamlashtirish
-              tartibi, majmua infratuzilmasi shartli bo'lib, loyihalashtirish,
-              qurilish ishlari va foydalanishda.
-            </p>
-            <p className="footer_card3_text footer_card3_text2">
-              TM tog'risidagi ma'lumotlar ko'rsatib o' tilgan mahsulotga bolgan
-              talabni aniqlash magsadida chop etilgan. Ushbu buklet ommaviy
-              oferta sanalmaydi.
-            </p>
+              Ushbu saytdagi suratlar loyiha arxitekturasini tushunish, fasad, dizayn va interer tasvirlari bilan tanishish, majmua infratuzilmasini oʻrganib chiqish maqsadida yuklangan. U ommaviy oferta hisoblanmaydi.
+            </p>  
+          
           </div>
         </div>
       </div>
