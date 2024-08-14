@@ -267,7 +267,7 @@
     &_icons {
         display: flex;
         column-gap: 12px;
-        @include media(800px) {
+        @include media(1000px) {
             // column-gap: 35px;
             align-items: center;
 
