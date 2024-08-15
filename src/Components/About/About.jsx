@@ -4,13 +4,23 @@ import about3 from "../../assets/images/about3.svg";
 import about4 from "../../assets/images/about4.svg";
 import universal from "../../assets/images/universal.png";
 import house from "../../assets/images/house.png";
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      
+      duration: 1000,
+      once: true, 
+
+    });
+  }, []);
   return (
     <div className="about">
       <div className="container">
         <div className="about_box">
-          <div className="about_card_text">
+          <div className="about_card_text" data-aos="fade-right" data-aos-offset="-50">
             <h2 className="about_title">Loyiha haqida</h2>
             <p className="about_text">
               NRG Qorasuvda hammasi ajoyib! Joylashgan o`rnidan boshlab,
@@ -27,7 +37,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="about_card_left">
+          <div className="about_card_left" data-aos="fade-left">
             <img className="about_card_left_img" src={universal} alt="" />
             <div className="about_map_text">
               <div className="about_map_text_box">
@@ -47,7 +57,7 @@ const About = () => {
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
           </div>
-          <div className="about_card_icons">
+          <div className="about_card_icons" data-aos="fade-right">
             <div className="about_card_icon">
               <div className="about_icon_text">
                 <div className="about_icon_text_card">

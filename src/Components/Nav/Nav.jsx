@@ -37,7 +37,7 @@ const Nav = () => {
                     />
                   </div>
                   <ul className="nav_list">
-                    <li>
+                  <li>
                       <Link
                         to="about"
                         smooth={true}
@@ -52,10 +52,9 @@ const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        to="location"
+                        to="average"
                         smooth={true}
                         duration={500}
-                        offset={-50}
                         href="#!"
                         className="nav_link"
                         onClick={() => setActive(false)}
@@ -64,32 +63,29 @@ const Nav = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                      to="location"
-                      smooth={true}
-                      duration={500}
-                      offset={-50}
-                       href="#!" className="nav_link" onClick={() => setActive(false)}>
-                      Xonadonlarni rejalashtirish
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="#!" className="nav_link" onClick={() => setActive(false)}>
-                        Xollar
-                      </a>
-                    </li>
-                    <li>
-                      <Link
-                        to="houses_plan"
+                      <Link to="houses"
                         smooth={true}
                         duration={500}
                         offset={-50}
-                        href="#!"
-                        className="nav_link" onClick={() => setActive(false)}
+                        onClick={() => setActive(false)}
+                        href="#!" className="nav_link"
                       >
-                        Rejalashtirish
+                        Xonadonlarni rejalashtirish
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        to="company"
+                         smooth={true}
+                        duration={500}
+                        onClick={() => setActive(false)}
+                        href="#!"
+                        className="nav_link"
+                      >
+                        Kompaniya haqida
+                      </Link>
+                    </li>
+
                     <li>
                       <Link
                         to="footer"
@@ -97,7 +93,8 @@ const Nav = () => {
                         duration={500}
                         offset={-50}
                         href="#!"
-                        className="nav_link" onClick={() => setActive(false)}
+                        className="nav_link"
+                        onClick={() => setActive(false)}
                       >
                         Bog‘lanish{" "}
                       </Link>
