@@ -60,13 +60,18 @@ const Nav = () => {
                         className="nav_link"
                         onClick={() => setActive(false)}
                       >
-                        Joylashgan o‘rni
+                        Bloklar joylashuvi
                       </Link>
                     </li>
                     <li>
-                      <a href="#!" className="nav_link" onClick={() => setActive(false)}>
-                        Hovli
-                      </a>
+                      <Link
+                      to="location"
+                      smooth={true}
+                      duration={500}
+                      offset={-50}
+                       href="#!" className="nav_link" onClick={() => setActive(false)}>
+                      Xonadonlarni rejalashtirish
+                      </Link>
                     </li>
                     <li>
                       <a href="#!" className="nav_link" onClick={() => setActive(false)}>
